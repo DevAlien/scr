@@ -1,0 +1,19 @@
+{
+  "name": "scr",
+  "version": "0.0.0",
+  "main": "index.html",
+  "window": {
+    "show": false,
+    "show_in_taskbar": false
+  },
+  "script": {
+    "start": "nw ."
+  },
+  "dependencies": {
+    "exec": "^0.2.0",
+    "request": "^2.55.0"
+  },
+  "devDependencies": {
+    "node-webkit-builder": "^1.0.11"
+  }
+}
